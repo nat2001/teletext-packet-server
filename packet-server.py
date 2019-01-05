@@ -32,9 +32,9 @@ def server(HOST,PORT):
     sock.close()
 
 if __name__ == "__main__":
-    HOST = "localhost"
-    PORT = 0
-    linesPerField = 0
+    HOST = "192.168.1.7"
+    PORT = 19761
+    linesPerField = 16
     
     try:
         opts, args = getopt.getopt(sys.argv[1:],"p:l:")
